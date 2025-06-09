@@ -57,7 +57,7 @@ export const Console = ({ output }: ConsoleProps) => {
       {/* Console Input */}
       <div className="border-t border-gray-700 p-2">
         <div className="flex items-center gap-2 text-sm">
-          <span className="text-blue-400">></span>
+          <span className="text-blue-400">{'>'}</span>
           <span className="text-gray-500 italic">Interactive console coming soon...</span>
         </div>
       </div>
